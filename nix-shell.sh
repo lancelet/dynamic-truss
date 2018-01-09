@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-nix-shell -p     \
-          llvm_5 \
+nix-shell -p        \
+          libffi    \
+          llvm_5    \
+          pkgconfig \
           clang_5
